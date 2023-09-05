@@ -9,10 +9,6 @@ const Feed = () => {
             <div className="feedWarper">
                 <Share></Share>
                 <Post></Post>
-                <Post></Post>
-                <Post></Post>
-                <Post></Post>
-                <Post></Post>
             </div>
             
         </div>

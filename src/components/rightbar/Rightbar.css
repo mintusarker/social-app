@@ -1,28 +1,72 @@
-.rightBar{
-    flex: 3.5;
+.rightBar {
+  flex: 3.5;
 }
 
-.rightBarWarper{
-    padding: 20px 20px 0 40px;
+.rightBarWarper {
+  padding: 20px 20px 0 40px;
 }
 
-.birthdayImg{
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+.birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
-.birthdayText{
-    font-weight: 300;
-    font-size: 15px;
+.birthdayText {
+  font-weight: 300;
+  font-size: 15px;
 }
 
-.birthdayContainer{
-    display: flex;
+.birthdayContainer {
+  display: flex;
 }
 
-.rightBarAd{
-    width: 100%;
-    border-radius: 10px;
-    margin: 30px 0;
+.rightBarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightBarTitle {
+  margin-bottom: 20px;
+}
+
+.rightBarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightBarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  /* margin-top: -10px; */
+}
+
+.rightBarProfileContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.rightBarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightBarOnline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(27, 196, 27);
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.rightBarUsername {
+  font-weight: 500;
 }

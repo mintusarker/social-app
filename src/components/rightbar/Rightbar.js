@@ -18,10 +18,143 @@ const Rightbar = () => {
 
         <ul className="rightBarFriendList">
           <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
 
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
           </li>
         </ul>
-        
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
+
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileContainer">
+              <img
+                className="rightBarProfileImg"
+                src="/assets/people/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <span className="rightBarUsername">John Carter</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
