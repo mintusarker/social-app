@@ -2,8 +2,13 @@ import { MoreVert } from "@material-ui/icons";
 import React from "react";
 import "./Post.css";
 
+import { Users } from "../../dummyData";
+
 const Post = ({ post }) => {
-  console.log(post);
+
+  const user = Users.filter((u) => u.id === post?.userId)[0];
+  console.log(user);
+
   return (
     <div className="post">
       <div className="postWarper">
@@ -11,10 +16,13 @@ const Post = ({ post }) => {
           <div className="postTopLeft">
             <img
               className="postProfileImg"
-              src="/assets/people/1.jpeg"
+              src={Users.filter((u) => u.id === post?.userId)[0].profilePicture}
               alt=""
             />
-            <span className="postUsername">M S Biraj</span>
+
+            <span className="postUsername">
+              {Users.filter((u) => u.id === post?.userId)[0].username}
+            </span>
             <span className="postDate"> {post?.date}</span>
           </div>
 
